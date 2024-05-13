@@ -4,7 +4,7 @@ Repo pengumpulan tugas website iTEC.
 
 ## Cara pengumpulan
 
-Pertama pastikan kamu punya akun GitHub. (fork repo)[https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo]
+Pertama pastikan kamu punya akun GitHub. [fork repo](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)
 ini, lalu lakukan `git clone` supaya repo bisa dikerjakan secara lokal. URL untuk git clone bisa ditemukan di tombol hijau yang bertuliskan "Code" di atas fork kamu.
 
 Kedua, buat sebuah folder sesuai dengan nama yang ingin kamu tampilkan di website pengumpulan: `itecmetschoo.github.io/tugas-website/[nama-kamu]/`. Misalkan, kamu 
