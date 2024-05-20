@@ -1,0 +1,72 @@
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, sans-serif;
+  }
+
+  .box {
+    border: 2px solid;
+    padding: 25px;
+    height: auto;
+    width: 50%;
+    max-width: 75%;
+    margin: auto;
+    background-color: rgb(159, 117, 172);
+    border-radius: 20px;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+ p {
+    font-size: 20px;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  body {
+    background-color: rgb(190, 138, 240);
+    min-height: 100vh;
+  }
+
+ .gradient-bg {
+    height: 200vh;
+    width: 100%;
+    
+    background-image: linear-gradient(rgb(119, 0, 255), rgb(125, 24, 165),  rgb(75, 0, 94));
+  }
+
+  header {
+    position: sticky;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    height: 10vh;
+    width: 100%;
+  }
+
+  header h1 {
+        color: white;
+  }
+
+section { 
+    text-align: center;
+    height: 20vh;
+}
+
+section h2 {
+    padding: 25px;
+    color: aliceblue;
+    font-style: italic;
+}
+
+section .image {
+    margin-top: 100px;
+}
