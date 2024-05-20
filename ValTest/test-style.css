@@ -3,13 +3,13 @@
     --DefCol: white;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 html, body {
     max-width: 100%;
     overflow-x: hidden;
-}
-
-* {
-    box-sizing: border-box;
 }
 
 body {
@@ -85,14 +85,14 @@ nav {
     top: 0;
     left: 0;
     height: 100vh;
-    width: 75px;
+    width: 145px;
     background: var(--MainCol);
 }
 
 .nav-cont {
     margin: 0px;
     padding: 0%;
-    width: 70px;
+    width: 140px;
     height: 100vh;
     list-style: none;
     background: var(--DefCol);
@@ -108,23 +108,16 @@ nav {
 }
 
 
-.Photo-Container img {
-    width: 200px;
-    margin-left:10%;
-    border: #222 solid;
-    border-radius: 20px;
-}
-
 .Photos {
     display: grid;
-    grid-template-columns: 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px 200px 200px;
     gap: 20px;
 }
 
 .Photos img{
     height: 135px;
     width: 200px;
-    margin-left:70%;
+    margin-left:85%;
     border: var(--MainCol) solid;
     border-radius: 20px;
 }
@@ -145,50 +138,43 @@ nav {
 
 .Vids {
     display: grid;
-    grid-template-columns: 200px 200px 200px;
+    grid-template-columns: 280px 280px 280px;
     gap: 20px;
 }
 
 .Vids video{
-    height: 115px;
-    width: 200px;
+    height: 144px;
+    width: 250px;
     margin-left:70%;
     border: var(--MainCol) solid;
     border-radius: 20px;
 }
 
 .Subs{
-    margin-left:  /* margin: 20px 20%; */10%;
+    margin-left: 12%;
 }
 
 .Media {
     display: grid;
-    grid-template-columns: 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px 200px 200px;
     gap: 20px;
 }
 
-.Media img {
-    height: 135px;
+.Media img, video{
+    height: 155px;
     width: 200px;
-    margin-left:70%;
-    border: var(--MainCol) solid;
-    border-radius: 20px;
-}
-
-.Media video {
-    height: 135px;
-    width: 200px;
-    margin-left:70%;
+    margin-left:95%;
     border: var(--MainCol) solid;
     border-radius: 20px;
 }
 
 .Kill-em-all img {
     margin-top: 20px;
-    margin-left: 205px;
+    margin-left: 225px;
     width: 426px;
     height: 40px; 
     object-fit: cover;
     object-position: 50% 100%;
+    border-top: solid black 4px;
 }
 
