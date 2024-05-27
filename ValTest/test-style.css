@@ -161,6 +161,8 @@ nav {
 }
 
 .Media img, video{
+    object-fit: cover;
+    object-position: top;
     height: 155px;
     width: 200px;
     margin-left:95%;
@@ -168,11 +170,16 @@ nav {
     border-radius: 20px;
 }
 
+img.Siel {
+    object-fit: cover;
+    object-position: center;
+}
+
 .Kill-em-all img {
     margin-top: 20px;
     margin-left: 225px;
     width: 426px;
-    height: 40px; 
+    height: 40px;  
     object-fit: cover;
     object-position: 50% 100%;
     border-top: solid black 4px;
