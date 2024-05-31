@@ -122,6 +122,11 @@ nav {
     border-radius: 20px;
 }
 
+#cl {
+    object-fit: cover;
+    object-position: 0% 40%;
+}
+
 .HelpRedirect {
     margin: 20px 20%;
     position: sticky;
