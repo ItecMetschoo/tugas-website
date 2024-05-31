@@ -172,7 +172,7 @@ nav {
 
 .Media video{
     object-fit: cover;
-    object-position: top;
+    object-position: 0% 34%;
     height: 155px;
     width: 200px;
     margin-left:95%;
