@@ -114,7 +114,7 @@ nav {
     gap: 20px;
 }
 
-.Photos img{
+.Photos img{    
     height: 135px;
     width: 200px;
     margin-left:85%;
@@ -160,7 +160,7 @@ nav {
     gap: 20px;
 }
 
-.Media img, video{
+.Media img{
     object-fit: cover;
     object-position: top;
     height: 155px;
@@ -169,6 +169,16 @@ nav {
     border: var(--MainCol) solid;
     border-radius: 20px;
 }
+
+.Media video{
+    object-fit: cover;
+    object-position: top;
+    height: 155px;
+    width: 200px;
+    margin-left:95%;
+    border: var(--MainCol) solid;
+    border-radius: 20px;
+} 
 
 img.Siel {
     object-fit: cover;
@@ -184,4 +194,3 @@ img.Siel {
     object-position: 50% 100%;
     border-top: solid black 4px;
 }
-
