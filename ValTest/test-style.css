@@ -122,6 +122,11 @@ nav {
     border-radius: 20px;
 }
 
+#cl {
+    object-fit: cover;
+    object-position: 0% 40%;
+}
+
 .HelpRedirect {
     margin: 20px 20%;
     position: sticky;
@@ -172,7 +177,7 @@ nav {
 
 .Media video{
     object-fit: cover;
-    object-position: top;
+    object-position: 0% 34%;
     height: 155px;
     width: 200px;
     margin-left:95%;
