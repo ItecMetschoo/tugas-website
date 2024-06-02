@@ -1,26 +1,116 @@
-<!-- <!doctype html> -->
+<!doctype html>
 <html lang="en">
-  <head>
-    <title>TUGAS ITEC</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="style.css" rel="stylesheet" />
-  </head>
 
-  <body>
-    <div class="gradient-bg">
-        <header><h1>NEW ERA</h1></header>
-        <section>
-          <img src="yelanchibi.png" alt="yel">  
-          <h2>YELAN</h2>
-          <p class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus obcaecati repellat illum perspiciatis voluptatum vero voluptatibus, laborum asperiores nam minima quo aut ut vel libero corporis, suscipit quaerat nesciunt necessitatibus!</p>
+<head>
+  <title>TUGAS ITEC</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
 
-          <img src="keq_chibi.png" alt="keq" class="image">  
-          <h2>KEQING</h2>
-          <p id="boxlain" class="box" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus obcaecati repellat illum perspiciatis voluptatum vero voluptatibus, laborum asperiores nam minima quo aut ut vel libero corporis, suscipit quaerat nesciunt necessitatibus!</p>
-        </section>
-        
+<body>
+  <section class="navbar" id="headerr">
+    <header>
+      <h1 class="logo">BILLYYY</h1>
+      <nav>
+        <a href="#headerr">Intro</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#footerr">Outro</a>
+      </nav>
+    </header>
+
+    <div class="text">
+      <h1>Welcome</h1>
     </div>
-  </body>
-    <script src="script.js"></script>
+  </section>
+
+  <section class="content" id="about">
+    <h1>About Me</h1>
+    <div class="main">
+      <img src="yelanchibi.png" alt="yel">
+      <div class="content-text">
+        <h2>Hi!</h2>
+        <p>
+          My name is Billy, but you can just call me Bill! I am an 16 years old IT student from SMK Pariwisata Metland
+          School and part of ITEC organization. I'm still new to the world of IT but I love to learn more about the
+          development of technologies!
+        </p>
+        <p>
+          So far as I know, I learned about a few C programming Language materials, some basic JavaScript, and a little
+          bit of Python. I also have learned about how to develop a simple website and how to designed it a little
+          proper.
+        </p>
+        <p>
+          I joined IT because I love to play games especially video games and I'm curious how to create it on my own.
+          I'm
+          looking forward to have more opportunities and experience in this world of IT as a game developer, designer,
+          or
+          web developer and web designer.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="project" id="projects">
+    <h1>LIST OF MY PROJECTS</h1>
+    <div class="project-content">
+      <img src="GameProjectPreview.png" alt="">
+      <div class="project-text">
+        <h2>Game Project X</h2>
+        <p>That is my game project I currently work on, actually it's a project for a subject on my school</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="text-end" id="footerr">
+    <div class="end-text">
+      <h1>Thanks for visiting!</h1>
+    </div>
+  </section>
+
+  <section class="end" >   
+    <footer>
+      <div class="quotes">
+        <h3>Quotes</h3>
+        <p>Always try to enjoy every moment you're in and be grateful for everything that you own</p>
+      </div>
+      <div class="socmed">
+        <h3>Visit Me On Social Media!</h3>
+        <ul>
+          <li><a href="https://www.youtube.com/@BillyEntertainmentDistrict"><i class="fa-brands fa-youtube"></i></a></li>
+          <li><a href="https://www.instagram.com/imjustbill__"><i class="fa-brands fa-instagram"></i></a></li>
+          <li><a href="https://discordapp.com/users/1232167473676025902"><i class="fa-brands fa-discord"></i></a></li>
+          <li><a href="https://www.tiktok.com/@imjustbill__"><i class="fa-brands fa-tiktok"></i></a></li>
+        </ul>
+      </div>
+      <div class="email">
+        <h3>Contact Me!</h3>
+        <p><i class="fa-solid fa-envelope"></i>: jouaqinbilly@gmail.com</p>
+      </div>
+    </footer>
+  </section>
+
+
+</body>
+<script src="https://kit.fontawesome.com/18413c89e4.js" crossorigin="anonymous"></script>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"
+  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+<script>
+  $(document).ready(function () {
+    $(window).on('scroll', function () {
+      if ($(window).scrollTop()) {
+        $("header").addClass('bgc');
+      } else {
+        $("header").removeClass('bgc');
+      }
+    });
+  })
+</script>
+
 </html>
