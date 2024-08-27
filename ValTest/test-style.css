@@ -200,6 +200,11 @@ img.Siel2 {
     border-radius: 20px;
 }
 
+img.Siel3 {
+    object-fit: cover;
+    object-position: 0% 15%;
+}
+
 .Kill-em-all img {
     margin-top: 20px;
     margin-left: 225px;
