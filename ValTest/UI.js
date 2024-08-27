@@ -1,11 +1,14 @@
+// alert("wleowleo");
 // const Source = document.querySelector("#Intr");
 // Intr.addEventListener("submit", onSubmit);
 
 // function onSubmit(e) {
 //     e.preventDefault();
 
-//     // alert("bruh");
+//      alert("bruh");
 // }
+
+
 
 // const TextCont = document.querySelector("p");
 // TextCont.textContent = "Teks Konten";
